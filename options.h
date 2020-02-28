@@ -3,7 +3,7 @@
 
 #define DEBUG 0
 #define PINNING 1
-#define PATH "/home/hanshukai/ssd"
+#define PATH "/home/hanshukai/ssd/kvell_store"
 
 /* In memory structures */
 #define RBTREE 0
