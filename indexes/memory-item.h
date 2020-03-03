@@ -1,6 +1,9 @@
 #ifndef MEM_ITEM_H
 #define MEM_ITEM_H
 
+#include <stdint.h>
+#include <stdio.h>
+
 struct slab;
 struct index_entry { // This index entry could be made much smaller by, e.g., have 64b for [slab_size, slab_idx] it is then easy to do size -> slab* given a slab context
    union {

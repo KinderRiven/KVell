@@ -11,10 +11,9 @@
 #define memory_index_scan btree_init_scan
 
 void btree_init(void);
-struct index_entry *btree_worker_lookup(int worker_id, void *item);
-void btree_worker_delete(int worker_id, void *item);
-struct index_scan btree_init_scan(void *item, size_t scan_size);
-void btree_index_add(struct slab_callback *cb, void *item);
+struct index_entry* btree_worker_lookup(int worker_id, void* item);
+void btree_worker_delete(int worker_id, void* item);
+struct index_scan btree_init_scan(void* item, size_t scan_size);
+void btree_index_add(struct slab_callback* cb, void* item);
 
 #endif
-
